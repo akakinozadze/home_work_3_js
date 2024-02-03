@@ -48,4 +48,64 @@
 // let result = fnc3(true , false);
 // console.log(result);
 
-//!3 
+//!3
+
+// function user1(...numbers) {
+//   return Math.max(...numbers);
+// }
+// let result = user1(12, 323, 34, 45, 3567, 978, 34, 2);
+// console.log(result);
+
+// // .. //
+
+// let user2 = function (...numbers1) {
+//   return Math.max(numbers1);
+// };
+// let result2 = user1(12, 323, 34, 45, 3567, 978, 34, 2);
+// console.log(result2);
+
+// // .. //
+
+// let user3 = (...numbers2) => {
+//   return Math.max(...numbers2);
+// };
+// let result3 = user3(12, 323, 34, 45, 3567, 978, 34, 2);
+// console.log(result3);
+
+//! 4 //
+
+// function user4(x) {
+//   if (x % 2 === 0) {
+//     return "this number is even";
+//   } else{
+//     return  "this number is odd";
+//   }
+// }
+// let result4 = user4(11);
+// console.log(result4);
+
+// ... ///
+
+// let user4 = function (x) {
+//   if (x % 2 === 0) {
+//     return "this number is even";
+//   }else {
+//     return "this number is odd";
+//   }
+// };
+// let result5 = user4(9);
+// console.log(result5);
+
+// // ... //
+
+// let user5 = (x) => {
+//   if (x % 2 ===0) {
+//     return "this number is even";
+//   } else {
+//     return "this number is odd";
+//   }
+// }
+// let result6 = user4(9);
+// console.log(result6);
+
+//! 5 //
