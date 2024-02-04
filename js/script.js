@@ -109,3 +109,18 @@
 // console.log(result6);
 
 //! 5 //
+
+// let array = [1, 2, 3, 4, 5];
+
+// const sum = array.reverse();
+
+// console.log(array);
+
+// //! 6 //
+// let user1 = (userAge) => {
+//  let sum = userAge > 18 ? "სრულლოვანი" : "არასწულწლოვანი" ;
+//  return sum ;
+// }
+
+// let result = user1(19);
+// console.log(result);
